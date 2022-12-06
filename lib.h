@@ -1,6 +1,4 @@
-#ifndef UNTITLED18_LIB_H
-#define UNTITLED18_LIB_H
-bool maiuscola (char &);
-bool minuscola (char &);
-
+#ifndef ESERCITAZIONE_6_LIB_H
+#define ESERCITAZIONE_6_LIB_H
+bool caratteri(char &);
 #endif
