@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     char a;
     cin >>a;
-    if (maiuscola (a)==true || minuscola (a)==true){
+    if (maiuscola (&a)==true || minuscola (&a)==true){
         cout<< "vero" <<endl;
         cout<<a;
     } else {
