@@ -1,22 +1,14 @@
 #include "lib.h"
 
-bool maiuscola (char &k){
-    if (k>64 && k<91){
-        k+=32;
-        return true; 
-    } else {
-        return false;  
-    }
-    }
-
-
-bool minuscola (char &k){
-    if (k>96 && k<123){
-        k-=32;
-        return true;  
-    } else {
-        return false;  
-    }
-    }
+bool caratteri(char &x){
+    if(x >= 65 && x <= 90){
+        x += 32;
+        return true;
+    }else if(x >= 97 && x <= 122){
+        x -= 32;
+        return true;
+    }else
+        return false;
+}
 
 
